@@ -242,29 +242,24 @@ var cardeck = [
         'p10'
     ),
     new card(
-        'Ten of Cups',
-        'Blissful relationshipsa and harmony. <br> You are about to receive your happy ever after scenario.',
-        'c10'
+        'Page of Pentacles',
+        'Manifestation and financial opportunity. <br> The court card delivers good news of an opportunity, award or financial boost.',
+        'pp'
     ),
     new card(
-        'Page of Cups',
-        'Creative opportunities, possibility, and curiosity. <br> You receive news of a happy nature. This news may be unexpected.',
-        'cp'
+        'Knight of Pentacles',
+        'Hard work and productivity. <br> You are making steady progress in one or more areas of your life.',
+        'pkn'
     ),
     new card(
-        'Knight of Cups',
-        'Romance and charm. <br>Your emotional life improves, there is movement now.',
-        'ckn'
+        'Queen of Pentacles',
+        'Nurturing and practical. <br> This is a good time for action, push yourself gently a little more. ',
+        'pq'
     ),
     new card(
-        'Queen of Cups',
-        'Intuitive and in flow. <br> Your intuition is good at this time and so you can trust your feelings. ',
-        'cq'
-    ),
-    new card(
-        'King of Cups',
-        'Emotionally balanced and compassionate. <br> Rise up and server humanity, now is the time to live your purpose.',
-        'ck'
+        'King of Pentacles',
+        'Wealth, business and leadership. <br> This royal card signifies success and worldly power.',
+        'pk'
     ),
 ];
 
