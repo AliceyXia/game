@@ -130,7 +130,7 @@ document.getElementById("draw").onclick
 
     document.getElementById("display").innerHTML 
     = '<img src= "imgs/' + 
-    currentCard.image + '.jpeg"><h2>' +
+    currentCard.image + '.png"><h2>' +
     currentCard.name + '</h2><p>' +
     currentCard.description +'</p>';
 };
