@@ -4,7 +4,8 @@ function card(name, description, image){
     this.image = image;
 }
 
-var cardeck = [
+var cardeck = [  
+    // from alice
     new card(
        'The Fool',
         'New Beginnings and Adventure.<br> Think before you act.',
@@ -114,7 +115,93 @@ var cardeck = [
         'The World',
         'Fulfillment, Harmony, and Travel. <br> A major event is happening in your life; be proud of what you learn along the way.',
         '21'
+    ), 
+
+    // from Karina Collins tarot and Alice
+    new card(
+        'Ace Of Cups',
+        'Love and New beginning. <br> You are beginning a new love or passion.',
+        'c1'
     ),
+    new card(
+        'Two of Cups',
+        'Snakes, Wings, Yin and Yang. <br> Taking a relationship to the next level.',
+        'c2'
+    ),
+    new card(
+        'Three of Cups',
+        'Celebration and Gathering. <br> There is cause for celebration now, or soon will be.',
+        'c3'
+    ),
+    new card(
+        'Four of Cups',
+        'Waiting and Meditation. <br> You feel bored and are looking for something to excite you.',
+        'c4'
+    ),
+    new card(
+        'Five of Cups',
+        'Reviewing the past. <br> Feeling disappointed or sad about a particular situation.',
+        'c5'
+    ),
+    new card(
+        'Six of Cups',
+        'Children and Opportunity. <br> Blast from the past! An issue, person or opportunity from the past re-emerges. ',
+        'c6'
+    ),
+    new card(
+        'Seven of Cups',
+        'Confusion and Choices. <br> Feeling confused and uncertain where to focus your attention.',
+        'c7'
+    ),
+    new card(
+        'Eight of Cups',
+        'Disappointment and abandonment. <br> Walking away from a situation or way of living.',
+        'c8'
+    ),
+    new card(
+        'Nine of Cups',
+        'Wish come true. <br> You about to experience a run of good luck, life goes your way',
+        'c9'
+    ),
+    new card(
+        'Ten of Cups',
+        'Blissful relationshipsa and harmony. <br> You are about to receive your happy ever after scenario.',
+        'c10'
+    ),
+    new card(
+        'Page of Cups',
+        'Creative opportunities, possibility, and curiosity. <br> You receive news of a happy nature. This news may be unexpected.',
+        'cp'
+    ),
+    new card(
+        'Knight of Cups',
+        'Romance and charm. <br>Your emotional life improves, there is movement now.',
+        'ckn'
+    ),
+    new card(
+        'Queen of Cups',
+        'Intuitive and in flow. <br> Your intuition is good at this time and so you can trust your feelings. ',
+        'cq'
+    ),
+    new card(
+        'King of Cups',
+        'Emotionally balanced and compassionate. <br> Rise up and server humanity, now is the time to live your purpose.',
+        'ck'
+    ),
+
+  // from Karina Collins tarot and Alice
+
+    new card(
+        'Ace of Pentacles',
+        'Manifestation and abundance. <br> This is a beginning of prosperity.',
+        'p1'
+    ),
+    new card(
+        'Two of Pentacles',
+        'Prioritisation and adaptability. <br> Managing a busy life, juggling several things at once successfully.',
+        'p2'
+    ),
+    
 ];
 
 function getRandom(num){
@@ -125,7 +212,7 @@ function getRandom(num){
 
 document.getElementById("draw").onclick 
 = function(){
-    var index = getRandom(21);
+    var index = getRandom(78);
     var currentCard = cardeck [index];
 
     document.getElementById("display").innerHTML 
