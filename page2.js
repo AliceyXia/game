@@ -201,7 +201,71 @@ var cardeck = [
         'Prioritisation and adaptability. <br> Managing a busy life, juggling several things at once successfully.',
         'p2'
     ),
-    
+    new card(
+        'Three of Pentacles',
+        'Teamwork and collaboration. <br> Reward and recognition for a job well done.',
+        'p3'
+    ),
+    new card(
+        'Four of Pentacles',
+        'Saving money and control. <br> Taking a longer-term view and building for your future.',
+        'p4'
+    ),
+    new card(
+        'Five of Pentacles',
+        'Isolation and worry. <br> This card represents hardship, struggle and worries.',
+        'p5'
+    ),
+    new card(
+        'Six of Pentacles',
+        'Generosity and receiving. <br> This is a time of good fortune, and giving to others.',
+        'p6'
+    ),
+    new card(
+        'Seven of Pentacles',
+        'Perseverance and investment <br> A reminder that hard work pays off, eventually.',
+        'p7'
+    ),
+    new card(
+        'Eight of Pentacles',
+        'Apprenticeship and skill development. <br> Making progress through hard work and dedication.',
+        'p8'
+    ),
+    new card(
+        'Nine of Pentacles',
+        'Self-sufficiency and Abundance. <br> The good life. You have enough money to do what you want.',
+        'p9'
+    ),
+    new card(
+        'Ten of Pentacles',
+        'Long-term success and family. <br> Signifies wealth, health and happiness for the entire family.',
+        'p10'
+    ),
+    new card(
+        'Ten of Cups',
+        'Blissful relationshipsa and harmony. <br> You are about to receive your happy ever after scenario.',
+        'c10'
+    ),
+    new card(
+        'Page of Cups',
+        'Creative opportunities, possibility, and curiosity. <br> You receive news of a happy nature. This news may be unexpected.',
+        'cp'
+    ),
+    new card(
+        'Knight of Cups',
+        'Romance and charm. <br>Your emotional life improves, there is movement now.',
+        'ckn'
+    ),
+    new card(
+        'Queen of Cups',
+        'Intuitive and in flow. <br> Your intuition is good at this time and so you can trust your feelings. ',
+        'cq'
+    ),
+    new card(
+        'King of Cups',
+        'Emotionally balanced and compassionate. <br> Rise up and server humanity, now is the time to live your purpose.',
+        'ck'
+    ),
 ];
 
 function getRandom(num){
