@@ -36,17 +36,31 @@ img{
 p{
     margin-top:0.125em;
     padding-top:0.125em;
+    font-family:serif;
+    font-size:1.5em;
 }
-
-button{
-    background-color:transparent;
-    color: white;
-    border:none;
-    padding: 1em;
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:2em;
+    margin:0.25em;
+}
+h1{
     color:white;
     text-transform: uppercase;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
+}
+h3{
+    color:white;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+button{
+    background-color:transparent;
+    color: white;
+    border:none;
+    padding: 1em 0 5em 0;
 
 
     text-align: center;
@@ -55,7 +69,12 @@ button{
     transition-duration: 0.4s;
     cursor: pointer;
 }
-   
+
+.carcon{
+    display:fixed;
+    width:80vw;
+    height:auto;
+}
    /* smaller cellphones: */
  @media screen and (max-width: 769px){
 
@@ -70,7 +89,10 @@ button{
     }
 
     button{
-        font-size: 110%;
+        font-size: 105%;
+    }
+    .carcon{
+        width:40vw; 
     }
 }
 
@@ -83,6 +105,9 @@ button{
     
     button{
         font-size: 110%;
+    }
+    .carcon{
+        width:30vw; 
     }
 }
 
