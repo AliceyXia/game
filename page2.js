@@ -261,6 +261,153 @@ var cardeck = [
         'Wealth, business and leadership. <br> This royal card signifies success and worldly power.',
         'pk'
     ),
+
+    // from Karina Collins tarot and Alice
+
+    new card(
+        'Ace of Swords',
+        ' Breakthroughs and new ideas. <br> The birth of a new idea. This card is the proverbial Ace up your sleeve.',
+        's1'
+    ),
+    new card(
+        'Two of Swords',
+        'An impasse and avoidance. <br> You are undecided about which is the best course of action to take.',
+        's2'
+    ),
+    new card(
+        'Three of Swords',
+        'Heartbreak and emotional pain. <br> Feeling sad or disappointed. Let the tears flow.',
+        's3'
+    ),
+    new card(
+        'Four of Swords',
+        'Meditation and contemplation. <br> Take time-out to rest and recharge your batteries.',
+        's4'
+    ),
+    new card(
+        'Five of Swords',
+        'Conflict and disagreements. <br> Are you feeling angry with someone ?',
+        's5'
+    ),
+    new card(
+        'Six of Swords',
+        'Transition and Change. <br> Better days are coming, and you are heading in the right direction.',
+        's6'
+    ),
+    new card(
+        'Seven of Swords',
+        'Betrayal and deception. <br> Someone is behaving sneakily behind your back.',
+        's7'
+    ),
+    new card(
+        'Eight of Swords',
+        'Self-imposed restriction and imprisonment.  <br> Feeling caged in by negative thoughts or a victim mentality.',
+        's8'
+    ),
+    new card(
+        'Nine of Swords',
+        'Worry and fear. <br> Feeling anxious, depressed or lonely.',
+        's9'
+    ),
+    new card(
+        'Ten of Swords',
+        'Deep wounds and Loss. <br> Represents a devastating loss and the end of a situation.',
+        's10'
+    ),
+    new card(
+        'Page of Swords',
+        'New ideas and curiosity. <br> The arrival of news, which may be unexpected.',
+        'sp'
+    ),
+    new card(
+        'Knight of Swords',
+        'Ambitious and fast-thinking. <br> Full steam ahead, events take off at great speed now.',
+        'skn'
+    ),
+    new card(
+        'Queen of Swords',
+        'Independent and direct communication. <br> Inspire us by your words or actions. Shine your Light.',
+        'sq'
+    ),
+    new card(
+        'King of Swords',
+        'Mental clarity and intellectual power. <br> Assert yourself, tell us what you feel and really think.',
+        'sk'
+    ),   
+    
+  // from Karina Collins tarot and Alice
+
+  new card(
+    'Ace of Wands',
+    'Inspiration and new opportunities. <br> A new beginning or a new venture.',
+    'w1'
+),
+new card(
+    'Two of Wands',
+    'Future planning and decisions. <br> What you have started begins to deliver results.',
+    'w2'
+),
+new card(
+    'Three of Wands',
+    'Progress, foresight, and overseas opportunities. <br> You are experiencing some success and can now expand your horizons further.',
+    'w3'
+),
+new card(
+    'Four of Wands',
+    'Celebration, joy, and harmony.<br> There is cause for celebration or a happy gathering of friends and family.',
+    'w4'
+),
+new card(
+    'Five of Wands',
+    'Competition and tension. <br> Fight for what you want, don’t be afraid to compete.',
+    'w5'
+),
+new card(
+    'Six of Wands',
+    'Success and self-confidence. <br> Feeling victorious, you achieve what you want.',
+    'w6'
+),
+new card(
+    'Seven of Wands',
+    'Challenge and perseverance. <br> Do not give up, and stand your ground if necessary.',
+    'w7'
+),
+new card(
+    'Eight of Wands',
+    'Movement, fast paced change, and air travel. <br> Life speed up and there is rapid progress now.',
+    'w8'
+),
+new card(
+    'Nine of Wands',
+    'Courage and persistence. <br> Don’t give up, keep going because you’re nearly there.',
+    'w9'
+),
+new card(
+    'Ten of Wands',
+    'Extra responsibility, hard work, and completion. <br> Feeling exhausted and overburdened by responsibilities.',
+    'w10'
+),
+new card(
+    'Page of Wands',
+    'Inspiration,limitless potential, and free spirit. <br> You receive exciting or good news.',
+    'wp'
+),
+new card(
+    'Knight of Wands',
+    'Inspired action, adventure, and impulsiveness. <br> Movement after a period of delays or stagnation.',
+    'skn'
+),
+new card(
+    'Queen of Wands',
+    'Courage, confidence, and determination. <br> Feeling confident and comfortable in your own skin.',
+    'wq'
+),
+new card(
+    'King of Wands',
+    'Vision and entrepreneur. <br> You can achieve what you want now, you’re ready..',
+    'wk'
+),     
+  
 ];
 
 function getRandom(num){
